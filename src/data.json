@@ -1,0 +1,13 @@
+[
+    {"id": 1, "nom": "Dupont", "prenom": "Alice", "age": 22, "filiere": "Informatique"},
+    {"id": 2, "nom": "Martin", "prenom": "Bob", "age": 23, "filiere": "Mathématiques"},
+    {"id": 3, "nom": "Bernard", "prenom": "Claire", "age": 21, "filiere": "Biologie"},
+    {"id": 4, "nom": "Dubois", "prenom": "David", "age": 24, "filiere": "Physique"},
+    {"id": 5, "nom": "Leroy", "prenom": "Eva", "age": 20, "filiere": "Chimie"},
+    {"id": 6, "nom": "Moreau", "prenom": "François", "age": 22, "filiere": "Informatique"},
+    {"id": 7, "nom": "Garnier", "prenom": "Sophie", "age": 25, "filiere": "Mathématiques"},
+    {"id": 8, "nom": "Rousseau", "prenom": "Gabriel", "age": 23, "filiere": "Biologie"},
+    {"id": 9, "nom": "Lambert", "prenom": "Julia", "age": 21, "filiere": "Physique"},
+    {"id": 10, "nom": "Perrot", "prenom": "Hugo", "age": 24, "filiere": "Chimie"}
+    
+   ]
