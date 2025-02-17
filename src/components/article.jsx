@@ -1,6 +1,7 @@
 import { Download, Code, FolderGit2, User, Palette, Database, GitBranch, UserCheck } from 'lucide-react';
 import '../App.css';
-
+import cv from '../components/cv.pdf';
+import me from '../components/me.jpg';
 export default function Portfolio() {
   const skillCategories = [
     {
@@ -71,7 +72,7 @@ export default function Portfolio() {
 
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
+   
       <section className="imagee w-full p-16  md:p-32 mb-10 ">
         <h1 className="m-20 md:m-20 uppercase text-white font-bold text-4xl md:text-7xl">
           nour-ellil soumia
@@ -81,11 +82,11 @@ export default function Portfolio() {
         </h2>
       </section>
 
-      {/* About Section */}
+     
       <section className="mx-auto w-full px-4 md:px-20 mb-20">
         <div className="flex flex-col md:flex-row items-center gap-8">
           <img
-            src="/src/components/me.jpg"
+           src={me}
             alt="Portrait du développeur"
             className="w-32 md:w-40 h-32 md:h-40 rounded-lg object-cover shadow-lg"
           />
@@ -123,7 +124,7 @@ export default function Portfolio() {
                     ))}
                 </div>
             </section>
-      {/* Skills Section */}
+      
       <section className="py-20 px-4 md:px-20 bg-gradient-to-b from-cyan-950 to-slate-900 text-white " id='Competences'>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16">
@@ -157,10 +158,10 @@ export default function Portfolio() {
       </section>
       
 
-      {/* CV Download */}
+    
       <section className="text-center py-12">
         <a 
-          href="/src/components/cv.pdf" 
+          href={cv}
           download 
           className="inline-flex items-center gap-2 bg-cyan-950 text-white font-bold px-6 py-3 rounded-full hover:bg-cyan-700 transition duration-300 shadow-md"
         >
@@ -169,23 +170,6 @@ export default function Portfolio() {
         </a>
       </section>
     </main>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   );
 }
