@@ -74,7 +74,7 @@ export default function Portfolio() {
     <main className="min-h-screen">
    
       <section className="imagee w-full p-16  md:p-32 mb-10 ">
-        <h1 className="m-20 md:m-20 uppercase text-white font-bold text-4xl md:text-7xl">
+        <h1 className="m-20 md:m-20 uppercase text-white font-bold text-4xl md:text-7xl ms:text-xl">
           nour-ellil soumia
         </h1>
         <h2 className="text-white text-2xl md:text-4xl -mt-8 md:-mt-14 m-10">
@@ -111,12 +111,12 @@ export default function Portfolio() {
                     <FolderGit2 className="text-cyan-700" size={32} />
                     Mes Projets
                 </h2>
-                <div className="grid md:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-3 gap-6 text-center  ">
                     {[{'id':1 , url:'https://gitlab.com/fist_tp/chic-click-v3.git' } , {'id':2 , url:'https://github.com/SoumiaNoure-ellil/article.git'},{'id':3 , url:'https://hafssaelaloini.github.io/livres'} ].map((project) => (
-                        <div key={project.id} className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition duration-300">
-                            <div className="project-info p-40 bgprojet">
+                        <div key={project.id} className="bg-white shadow-md rounded-lg md:p-6 sm:p-3 hover:shadow-xl transition duration-300">
+                            <div className="project-info md:p-30 bgprojet sm:p-10 lg:p-40">
                                 <h3 className="text-2xl font-bold mb-3">Projet {project.id}</h3>
-                                <a href={project.url}  className="bg-cyan-950 text-white px-4 py-2 m-10 text-xl rounded hover:bg-cyan-600 transition duration-300">Consulte</a>
+                                <a href={project.url}  className="bg-cyan-950 text-white px-4 py-2  text-xl rounded hover:bg-cyan-600 transition duration-300 md:mt-10 p-2">Consulte</a>
                             </div>
 
                         
